@@ -1,0 +1,244 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/* header start */
+header {
+  padding: 0;
+}
+/* logo start */
+.logo {
+  width: 150px;
+}
+/* manu start  */
+.manu ul li a {
+  margin-bottom: 5px;
+  padding: 0 10px !important;
+}
+/* banner text start  */
+.banner {
+  padding-bottom: 60px;
+}
+.banner_text {
+  text-align: center;
+}
+.b_h1 {
+  padding: 0;
+  font-size: 30px;
+  line-height: 40px;
+}
+.b_p2 {
+  padding: 0;
+  line-height: 26px;
+}
+.btn_link {
+  margin: 15px auto 0;
+}
+.b_img img {
+  margin-bottom: 30px;
+  padding: 0 0;
+}
+
+/* feature start  */
+.c_padd {
+  padding-bottom: 60px;
+}
+.s_feature {
+  margin-top: 24px;
+  /* padding: 50px 0 45px; */
+}
+/* course start  */
+.c_h1 {
+  font-size: 30px;
+  line-height: 45px;
+}
+.c_item {
+  margin: 30px 0 0;
+  padding: 20px 15px 20px;
+}
+.course_h2 {
+  font-size: 20px;
+}
+.c_left ul li img,
+.c_right ul li img{
+  width: 20px;
+}
+.c_left ul li span ,
+.c_right ul li span{
+    font-size: 15px;
+}
+/* footer top start */
+.footer_top {
+  padding: 55px 0 20px;
+  text-align: center;
+}
+.ft_d {
+  margin-bottom: 35px;
+  padding-right: 0;
+}
+.ft_links {
+  margin-bottom: 35px;
+}
+}
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header start */
+header {
+  padding: 0px 0;
+}
+/* logo start */
+.logo {
+  width: 150px;
+}
+/* manu start  */
+.manu ul li a {
+  margin-bottom: 5px;
+  padding: 0 10px !important;
+}
+/* banner text start  */
+.banner_text {
+  text-align: center;
+}
+.b_h1 {
+  padding: 0 92px 0;
+  font-size: 30px;
+  line-height: 50px;
+}
+.b_p2 {
+  padding: 0 40px;
+  line-height: 30px;
+}
+.btn_link {
+  margin: 15px auto 0;
+}
+.b_img img {
+  margin-bottom: 30px;
+  padding: 0 60px;
+}
+/* feature start  */
+.c_padd {
+  padding-bottom: 60px;
+}
+.s_feature {
+  margin-top: 24px;
+}
+/* course start  */
+.c_h1 {
+  font-size: 30px;
+  line-height: 45px;
+}
+.c_item {
+  margin: 30px 70px 0;
+  padding: 20px 15px 20px;
+}
+/* footer top start  */
+.footer_top {
+  text-align: center;
+}
+.ft_d {
+  padding: 0 70px 0 70px;
+  margin-bottom: 40px;
+}
+ }
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ /* header stert  */
+header {
+  padding: 4px 0;
+}
+/* manu start  */
+.manu ul li a {
+  padding: 0 10px !important;
+  margin-bottom: 5px;
+}
+/* banner text start  */
+.banner_text {
+  text-align: center;
+}
+.b_h1 {
+  padding: 0 100px 0;
+  line-height: 60px;
+}
+.b_p2 {
+  padding: 0 100px;
+  line-height: 30px;
+}
+.btn_link {
+  margin: 15px auto 0;
+}
+.b_img img {
+  margin-bottom: 30px;
+  padding: 0 80px;
+}
+/* course start */
+.c_padd {
+  padding-bottom: 80px;
+}
+.c_item {
+  margin: 40px 130px 0;
+  padding: 25px 24px 30px;
+}
+/* footer top start  */
+.footer_top {
+  text-align: center;
+}
+.ft_d {
+  padding: 0 80px 0 80px;
+  margin-bottom: 40px;
+}
+ }
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* banner text staRT */
+.b_h1 {
+  padding: 0 0 0 0;
+  font-size: 38px;
+}  
+/* feature start  */
+.feature {
+  padding: 0 0 80px;
+}
+/* course start */
+.c_item {
+  padding: 25px 15px 30px;
+}
+.c_left ul li img, 
+.c_right ul li img {
+  width: 20px;
+}
+.c_left ul li span, 
+.c_right ul li span {
+  font-size: 15px;
+}
+.cli:not(:last-child) {
+  margin-right: 0px;
+}
+ }
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+  }
+
+
+
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+/* banner start  */
+.b_h1 {
+  padding: 0px 110px 0 0;
+}
+/* footer top start  */
+.ft_d {
+  padding-right: 130px;
+}
+/* footer top end */
+ }
